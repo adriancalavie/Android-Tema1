@@ -6,24 +6,28 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.FragmentOne"
-    android:background="@color/light_blue">
+    android:background="@color/yellow">
 
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.2"
+        android:fontFamily="@font/basic"
         android:text="@string/f2a2_title"
-        />
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
 
     <Button
         android:id="@+id/button1_f2a2"
         android:layout_width="0dp"
-        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintWidth_percent="0.6"
         android:layout_height="wrap_content"
         android:text="@string/f2a2_button1"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -31,13 +35,16 @@
         app:layout_constraintHeight_percent="0.8"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.43" />
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintVertical_bias="0.1"
+        android:textColor="#000000"
+        android:background="@color/transparent"
+        android:textSize="20sp"/>
 
     <Button
         android:id="@+id/button2_f2a2"
         android:layout_width="0dp"
-        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintWidth_percent="0.6"
         android:layout_height="wrap_content"
         android:text="@string/f2a2_button2"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -45,12 +52,15 @@
         app:layout_constraintHeight_percent="0.8"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5" />
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintVertical_bias="0.3"
+        android:textColor="#000000"
+        android:background="@color/transparent"
+        android:textSize="20sp"/>
     <Button
         android:id="@+id/button3_f2a2"
         android:layout_width="0dp"
-        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintWidth_percent="0.6"
         android:layout_height="wrap_content"
         android:text="@string/f2a2_button3"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -58,7 +68,10 @@
         app:layout_constraintHeight_percent="0.8"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.57" />
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintVertical_bias="0.5"
+        android:textColor="#000000"
+        android:background="@color/transparent"
+        android:textSize="20sp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

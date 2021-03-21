@@ -12,7 +12,11 @@ class ActivityOne : AppCompatActivity(), IActivityFragmentCommunication {
         setContentView(R.layout.activity_one)
     }
 
-    override fun openMainActivity() {
+    override fun openNextActivity() {
         startActivity(Intent(this, ActivityTwo::class.java))
+    }
+
+    override fun replaceFragment(tag: String) {
+        //Not implemented
     }
 }

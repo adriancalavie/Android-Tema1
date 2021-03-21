@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">AndroidTema1</string>
-    <string name="f1a1_title">This is F1A1</string>
-    <string name="f1a2_title">This is F1A2</string>
-    <string name="f2a2_title">This is F2A2</string>
-    <string name="f3a2_title">This is F3A2</string>
+    <string name="f1a1_title">This is Fragment #1 from Activity #1</string>
+    <string name="f1a2_title">This is Fragment #1 from Activity #2</string>
+    <string name="f2a2_title">This is Fragment #2 from Activity #2</string>
+    <string name="f3a2_title">This is Fragment #3 from Activity #2</string>
     <string name="f1a1_button">Next activity</string>
     <string name="f1a2_button">Next fragment</string>
     <string name="f2a2_button1">Next fragment</string>

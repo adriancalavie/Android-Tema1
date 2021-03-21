@@ -6,8 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.androidtema1.R
+import com.example.androidtema1.interfaces.IActivityFragmentCommunication
 
 class FragmentFour : Fragment() {
+
+    private var activity: IActivityFragmentCommunication? = null
 
     override fun onCreateView(inflater: LayoutInflater,
                               container: ViewGroup?,
